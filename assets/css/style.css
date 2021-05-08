@@ -248,6 +248,59 @@ header {
   animation: scaleUp 6s ease-in-out infinite;
 
 }
+/*========== Numbers ==========*/
+.numbers {
+    margin-top: 8rem;
+}
+.numbers__title {
+    font-size:3rem;
+    padding-left: 5rem;
+    padding-right: 50%;
+    font-weight: 500;
+    margin-bottom: var(--mb-2);
+    text-transform: capitalize;
+}
+.numbers__subtitle {
+    padding-left: 5rem;
+    padding-right: 50%;
+}
+.mockup__img {
+    flex-basis: 50%;
+}
+.mockup__img img{
+    max-width: 100%;
+    object-fit: contain;
+    margin: auto 1.1rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.487);
+}
+.one {
+    background: var(--gradient-1);
+}
+.two {
+    background: var(--gradient-2);
+}
+.three{
+    background: var(--gradient-3);
+}
+.four {
+    background: var(--gradient-4);
+}
+.numbers .grid-box {
+    transition: 1s;
+}
+.numbers .grid-box h2 {
+    color: var(--mainWhite);
+    font-weight: 400;
+    margin-top: var(--mb-3);
+    font-size: 1.1rem;
+}
+.numbers .grid-box h1 {
+    font-size: 2rem;
+}
+.numbers .grid-box:hover{
+    transform:translateY(-30px);
+}
 /* animation */
 @keyframes scaleUp{
     0%{
@@ -260,3 +313,4 @@ header {
         transform:scale(1.2)
     }
 }
+
