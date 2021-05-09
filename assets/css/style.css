@@ -474,6 +474,36 @@ i {
 .blog a {
   color: #282f59;
 }
+/*========== call to action ==========*/
+.getstarted{
+  margin-top: 8rem;
+  padding: 10rem;
+
+}
+.ctn__container {
+  display:flex;
+  width: 90%;
+  margin: 10px auto;
+  padding: 4rem;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.212);
+  justify-content: space-around;
+  border-radius:10px;
+}
+.ctn__btn {
+  padding: 1.1rem 2.2rem ;
+  color: var(--mainWhite);
+  background:var(--gradient-2);
+  border:none;
+  border-radius:8px;
+  font-size: 1.3rem;
+  transition: 1s;
+}
+.ctn__btn:hover{
+  background:var(--gradient-4);
+}
+.ctn__text h1 {
+  font-size:2rem;
+}
 /* animation */
 @keyframes scaleUp {
   0% {
