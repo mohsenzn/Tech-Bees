@@ -444,6 +444,36 @@ i {
   color: var(--lightGrey);
   margin-bottom: 3rem;
 }
+/*========== Blog ==========*/
+.blogs {
+  margin-top: 6rem;
+}
+.blogs__title{
+  font-size:2.8rem;
+  text-align: center;
+  font-weight:500;
+}
+.blogs .grid-wrapper {
+  padding: 4rem 5rem;
+}
+.blog {
+  height:400px;
+}
+.blog h1 {
+  margin: 20px 0;
+  font-size:20px;
+}
+.blog img  {
+  width:100%;
+  max-height: 300px;
+  
+}
+.blog p{
+  margin-bottom: var(--mb-1);
+}
+.blog a {
+  color: #282f59;
+}
 /* animation */
 @keyframes scaleUp {
   0% {
