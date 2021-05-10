@@ -10,7 +10,7 @@
   --title-color: #292f59;
   --title-color2: #4642ff;
   --text-color: #7c7c7c;
-  --lightGrey:#808080;
+  --lightGrey: #808080;
   --darkGrey: #2f4f4f;
   --body-color: #fbfefd;
   --container-color: #fff;
@@ -305,8 +305,8 @@ header {
   text-align: center;
 }
 .projects h1 {
-    font-size:2.5rem;
-    font-weight:500;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 .projects__images {
   padding: 2rem;
@@ -339,7 +339,7 @@ header {
 
 .details:hover {
   background: rgba(0, 0, 255, 0.7);
-  opacity:1;
+  opacity: 1;
 }
 
 .details h1,
@@ -353,59 +353,59 @@ i {
 }
 /*========== Team Member ==========*/
 .team {
-    margin-top: 6rem;
-    text-align: center;
+  margin-top: 6rem;
+  text-align: center;
 }
 .team h1 {
-    font-size:2.5rem;
-    font-weight:500;
-    margin-bottom: var(--mb-3);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: var(--mb-3);
 }
 .team .grid-wrapper {
-    background: var(--gradient-2);
-    padding-top: 4rem;
+  background: var(--gradient-2);
+  padding-top: 4rem;
 }
-.team__member{
-    background: #fff;
-    height:400px;
-    border-radius:8px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition:.8s;
-    cursor: pointer;
+.team__member {
+  background: #fff;
+  height: 400px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.8s;
+  cursor: pointer;
 }
-.team__member:hover{
-    transform: translateY(-20px);
+.team__member:hover {
+  transform: translateY(-20px);
 }
 .team__member img {
-    width:80px;
-    border-radius: 50%;
+  width: 80px;
+  border-radius: 50%;
 }
 .team__member h1 {
-    font-weight: 400;
-    font-size: 2.1rem;
-    text-transform: capitalize;
+  font-weight: 400;
+  font-size: 2.1rem;
+  text-transform: capitalize;
 }
 .team__member h2 {
-    color: var(--lightGrey);
-    text-transform: capitalize;
-    font-weight: 400;
+  color: var(--lightGrey);
+  text-transform: capitalize;
+  font-weight: 400;
 }
 .team__member i {
-    color:var(--lightGrey);
-    margin-right: 0.5rem;
-    font-size: 1.3rem;
-    transition:0.5s;
-    cursor: pointer;
+  color: var(--lightGrey);
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+  transition: 0.5s;
+  cursor: pointer;
 }
-.team__member i:hover{
-    color: #000;
-    transform:scale(1.1)
+.team__member i:hover {
+  color: #000;
+  transform: scale(1.1);
 }
 /*========== testimonials ==========*/
-.testimonials{
+.testimonials {
   margin-top: 6rem;
 }
 .testimonials__title {
@@ -413,7 +413,6 @@ i {
   padding-left: 5rem;
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
-
 }
 .testimonials__subtitle {
   padding-left: 5rem;
@@ -431,15 +430,15 @@ i {
   margin-bottom: 2rem;
   align-items: center;
 }
-.review .profile img{
-  width:100px;
+.review .profile img {
+  width: 100px;
   border-radius: 50%;
   margin-right: 1.1rem;
 }
 .review p {
-  padding-left:4.5rem ;
+  padding-left: 4.5rem;
 }
-.review  i {
+.review i {
   font-size: 30px;
   color: var(--lightGrey);
   margin-bottom: 3rem;
@@ -448,61 +447,108 @@ i {
 .blogs {
   margin-top: 6rem;
 }
-.blogs__title{
-  font-size:2.8rem;
+.blogs__title {
+  font-size: 2.8rem;
   text-align: center;
-  font-weight:500;
+  font-weight: 500;
 }
 .blogs .grid-wrapper {
   padding: 4rem 5rem;
 }
 .blog {
-  height:400px;
+  height: 400px;
 }
 .blog h1 {
   margin: 20px 0;
-  font-size:20px;
+  font-size: 20px;
 }
-.blog img  {
-  width:100%;
+.blog img {
+  width: 100%;
   max-height: 300px;
-  
 }
-.blog p{
+.blog p {
   margin-bottom: var(--mb-1);
 }
 .blog a {
   color: #282f59;
 }
 /*========== call to action ==========*/
-.getstarted{
+.getstarted {
   margin-top: 8rem;
-  padding: 10rem;
-
+  padding: 8rem;
 }
 .ctn__container {
-  display:flex;
+  display: flex;
   width: 90%;
   margin: 10px auto;
   padding: 4rem;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.212);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
   justify-content: space-around;
-  border-radius:10px;
+  border-radius: 10px;
 }
 .ctn__btn {
-  padding: 1.1rem 2.2rem ;
+  padding: 1.1rem 2.2rem;
   color: var(--mainWhite);
-  background:var(--gradient-2);
-  border:none;
-  border-radius:8px;
+  background: var(--gradient-2);
+  border: none;
+  border-radius: 8px;
   font-size: 1.3rem;
   transition: 1s;
 }
-.ctn__btn:hover{
-  background:var(--gradient-4);
+.ctn__btn:hover {
+  background: var(--gradient-4);
 }
 .ctn__text h1 {
-  font-size:2rem;
+  font-size: 2rem;
+}
+/*========== Footer ==========*/
+.footer{
+  margin-top: 4rem;
+  background-image: url(../images/footer-agency.png);
+  background-size: cover;
+}
+.col-4{
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer h1 {
+  font-size:2.6rem;
+  margin-bottom: var(--mb-3);
+}
+.footer1 i{
+  margin: 3.2rem 1.2rem; 
+  font-size: 1.4rem;
+  color:var(--lightGrey);
+}
+.footer2 h4,
+.footer3 h4,
+.footer4 h4{
+  color: var(--lightGrey);
+  font-weight: 400;
+}
+.footer hr{
+  width:90%;
+  margin: 0 auto;
+}
+.copyright {
+  display:flex;
+  justify-content: space-around;
+  color: var(--lightGrey);
+  padding: 2.1rem ;
+  font-weight: 400;
+}
+/* btn scroll to top */
+#scrolltp{
+  color: white;
+  background: tomato;
+  padding: 1.1rem;
+  border-radius:50%;
+  position:fixed;
+  right: 50px;
+   bottom: 50px;
+   cursor: pointer;
 }
 /* animation */
 @keyframes scaleUp {

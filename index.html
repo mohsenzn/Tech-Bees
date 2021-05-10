@@ -11,6 +11,8 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Tech Bees || HomePage</title>
@@ -48,7 +50,7 @@
       </div>
     </header>
     <!-- services -->
-    <section class="services">
+    <section class="services" data-aos="fade-right">
       <div class="container">
         <div class="grid-wrapper">
           <div class="grid-box mobileapp">
@@ -89,7 +91,7 @@
       </div>
     </section>
     <!-- NUmbers -->
-    <section class="numbers">
+    <section class="numbers" data-aos="fade-left">
       <h1 class="numbers__title">We lead from front</h1>
       <p class="numbers__subtitle">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
@@ -122,7 +124,7 @@
       </div>
     </section>
     <!-- Projects -->
-    <section class="projects">
+    <section class="projects" data-aos="zoom-in">
       <h1>Our latest Projects</h1>
       <div class="projects__images">
         <div class="project__img">
@@ -180,7 +182,7 @@
     <section class="team">
       <h1>Meet Our Team</h1>
       <div class="grid-wrapper">
-        <div class="team__member">
+        <div class="team__member" data-aos="zoom-in">
           <img src="assets/images/team1.png" alt="" />
           <h1>John Smith</h1>
           <h2>CEO & Founder</h2>
@@ -191,7 +193,7 @@
             <i class="fab fa-linkedin"></i>
           </div>
         </div>
-        <div class="team__member">
+        <div class="team__member" data-aos="zoom-in">
           <img src="assets/images/team3.png" alt="" />
           <h1>Smith</h1>
           <h2>web Design</h2>
@@ -202,7 +204,7 @@
             <i class="fab fa-linkedin"></i>
           </div>
         </div>
-        <div class="team__member">
+        <div class="team__member" data-aos="zoom-in">
           <img src="assets/images/team4.png" alt="" />
           <h1>John</h1>
           <h2>Web Development</h2>
@@ -213,7 +215,7 @@
             <i class="fab fa-linkedin"></i>
           </div>
         </div>
-        <div class="team__member">
+        <div class="team__member" data-aos="zoom-in">
           <img src="assets/images/team2.png" alt="" />
           <h1>Sophia</h1>
           <h2>Manager</h2>
@@ -324,6 +326,63 @@
         <button class="ctn__btn">Get Started</button>
       </div>
     </section>
+    <!-- Footer -->
+    <section class="footer">
+      <div class="grid-wrapper">
+        <div class="col-4  footer1">
+          <h1>Tech Bees</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, impedit
+             culpa totam laudantium magnam nulla officiis sapiente! Excepturi, cum est 
+             dicta tenetur quo perferendis sapiente sint ut at, asperiores rem?</p>
+             <div class="social__icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="col-4 footer2">
+          <h1>Contact info</h1>
+          <h4>Tech Bees, Newe jersery</h4>
+          <h4>New Your, USA</h4>
+          <h4>0000-000-0000</h4>
+          <h4>techbees@gmail.com</h4>
+          <h4>website.com</h4>
+        </div>
+        <div class="col-4 footer3">
+          <h1>About Us</h1>
+          <h4>Company</h4>
+          <h4>Porjects</h4>
+          <h4>Events</h4>
+          <h4>Awards</h4>
+          <h4>Open Source</h4>
+        </div>
+        <div class="col-4 footer4">
+          <h1>Custom Software</h1>
+          <h4>Web Design</h4>
+          <h4>Projects</h4>
+          <h4>App Development</h4>
+          <h4>Awards</h4>
+          <h4>Open Source</h4>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <h4>Copyright Gowtham Tirri. All rights reserved.</h4>
+        <h4>Terms & Use</h4>
+        <h4>Privacy Policy</h4>
+      </div>
+      <!-- Scroll to top btn -->
+      <i class="fa fa-arrow-up" id="scrolltp"></i>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      AOS.init({
+         offset: 200,
+         delay: 100,
+         duration: 1000,
+       });
+    </script>
   </body>
 </html>
