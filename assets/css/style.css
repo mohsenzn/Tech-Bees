@@ -549,6 +549,7 @@ i {
   right: 50px;
    bottom: 50px;
    cursor: pointer;
+   transition: 0.5s;
 }
 /* animation */
 @keyframes scaleUp {
